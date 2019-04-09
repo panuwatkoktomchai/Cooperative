@@ -8,8 +8,12 @@ if ($conn->query($sql)) {
     $_SESSION['alert']['message'] = "บันทึกการเปลี่ยนแปลงแล้ว";
     header('Location:/cooper/view/setting/compansation/show.php');
 }else {
-    echo "<script> window.history.back(); </script>";
+    if ($conn->errno == 1062) {
+        $_SESSION['alert']['message'] = "สินค้านี้ถูกตั้งค่าตอบแทนแล้ว";
+    }else {
+        $_SESSION['alert']['message'] = $conn->error;
+    }
     $_SESSION['alert']['status'] = "ล้มเหลว";
     $_SESSION['alert']['color'] = "red";
-    $_SESSION['alert']['message'] = $conn->error;
+    echo "<script> window.history.back(); </script>";
 }
