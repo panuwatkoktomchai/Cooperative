@@ -1,7 +1,7 @@
 
 <?php
 include "../../../connection/connectMysql.php";
-$sqlGet = "select * from distributors";
+$sqlGet = "select * from distributors where id = ".$_GET['id'];
 $data = $conn->query($sqlGet);
 $data = $data->fetch_assoc();
 ?>

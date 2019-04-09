@@ -32,9 +32,9 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
         <div class="w3-card w3-round w3-white">
             <div class="w3-container w3-padding">
                 <form action="code/save.php" method="post"> 
-                    <p><h2>รหัสตัวแทน</h2></p>
+                    <!-- <p><h2>รหัสตัวแทน</h2></p>
                     <input value="" pattern="[0-9]" title="รหัสตัวแทน ตัองเป้นตัวเลขและจำนวนไม่เกิน 5 หลัก" class="w3-input w3-border"required name="data[id]" type="text" placeholder="ระบุรหัส">
-                    <span style="color:red"> * ระบุตัวเลยไม่เกิน 5 ตัว</span>
+                    <span style="color:red"> * ระบุตัวเลยไม่เกิน 5 ตัว</span> -->
 
                     <p><h2>ชื่อ</h2></p>
                     <input value="" class="w3-input w3-border"required name="data[name]" type="text" placeholder="ระบุชื่อ">

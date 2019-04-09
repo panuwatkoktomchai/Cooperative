@@ -1,7 +1,7 @@
 <?php 
 include "../../../../connection/connectMysql.php";
 $data = $_POST['data'];
-$sql = "insert into distributors (id, name, address, phone ) value(".$data['id'].", '".$data['name']."', '".$data['address']."', '".$data['phone']."')";
+$sql = "insert into distributors (id, name, address, phone ) value(null, '".$data['name']."', '".$data['address']."', '".$data['phone']."')";
 if ($conn->query($sql)) {
     $_SESSION['alert']['status'] = "เรียบร้อย";
     $_SESSION['alert']['color'] = "green";
