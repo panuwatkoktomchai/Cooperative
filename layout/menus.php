@@ -15,7 +15,7 @@
   <div class="w3-bar-block">
     <a href="/cooper/index.php" class="w3-bar-item w3-button w3-light-gray w3-hover-blue-gray"><i class="fa fa-home"></i>  หน้าหลัก</a>
     <a href="/cooper/view/setting/setting.php" class="w3-bar-item w3-button w3-light-gray w3-hover-blue-gray"><i class="fa fa-cog"></i>  จัดการข้อมุลพื้นฐาน</a>
-    <a href="/cooper/view/pos/list.php" class="w3-bar-item w3-button w3-light-gray w3-hover-blue-gray"><i class="fa fa-cart-arrow-down"></i>  เบิกเงินค่าตอบแทน</a>
+    <a href="/cooper/view/withdraw/list.php" class="w3-bar-item w3-button w3-light-gray w3-hover-blue-gray"><i class="fa fa-cart-arrow-down"></i>  เบิกเงินค่าตอบแทน</a>
     <a href="/cooper/view/pos/list.php" class="w3-bar-item w3-button w3-light-gray w3-hover-blue-gray"><i class="fa fa-cart-arrow-down"></i>  ขายสินค้า</a>
   <?php if($_SESSION['user']['user_type'] == 0 ) { ?>
     <a href="/cooper/view/member/show.php" class="w3-bar-item w3-button w3-light-gray w3-hover-blue-gray"><i class="fa fa-cog"></i>  สมาชิก</a>    

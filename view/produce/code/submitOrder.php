@@ -5,7 +5,7 @@ if ($conn->query($order_produce)) {
     $id = $conn->insert_id;
     $sql = "";
     foreach ($_SESSION['orderProduce'] as $key => $value) {
-        $sql = "insert into produce_list value(null,".$id.",".$value['id'].",".$value['add'].")";
+        $sql = "insert into produce_list value(null,".$id.",".$value['id'].",".$value['add'].",0)";
         $getMaterial = "select * from material_products where product_id = ".$value['id'];
         $getMaterial = $conn->query($getMaterial);
 

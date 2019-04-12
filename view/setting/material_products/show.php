@@ -2,7 +2,7 @@
 <!-- PHP -->
 <?php
     include "../../../connection/connectMysql.php";
-    $strGet = "select * from products";
+    $strGet = "select * from products order by id desc";
     $products = $conn->query($strGet);
 ?>
 

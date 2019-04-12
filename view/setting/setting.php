@@ -84,6 +84,20 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
         </div>
 
         <div class="w3-quarter w3-margin-bottom">
+            <a href="/cooper/view/setting/employee/show.php" style="text-decoration: none;">
+            <div class="w3-container w3-card-3 w3-hover-gray w3-blue-gray w3-padding-16">
+                <div class="w3-left"><i class="fa fa-users w3-text-light w3-xxxlarge"></i></div>
+                <div class="w3-right">
+                <!-- <h3>52</h3> -->
+                <i class="fa fa-cogs w3-text-orange" aria-hidden="true"></i>
+                </div>
+                <div class="w3-clear"></div>
+                <h4> พนักงาน </h4>
+            </div>
+            </a>
+        </div>
+
+        <div class="w3-quarter w3-margin-bottom">
             <a href="materail_type/show.php" style="text-decoration: none;">
             <div class="w3-container w3-card-3 w3-hover-gray w3-blue-gray w3-padding-16">
                 <div class="w3-left"><i class="fa fa-gavel w3-text-light w3-xxxlarge"></i></div>

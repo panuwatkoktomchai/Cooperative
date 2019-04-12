@@ -52,7 +52,7 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
                                 <td><span class="w3-tag w3-round w3-<?php echo $value['status'] < 1 ? 'orange' : 'green' ?>"><?php echo $status[$value['status']] ?></span></td>
                                 <td> 
                                     <?php if($value['status'] < 1){ ?>
-                                    <a class="w3-button w3-round w3-blue" href="confirmRecive.php?id=<?php echo $value['id'] ?>">รับสินค้า</a>
+                                    <a class="w3-button w3-round w3-blue" href="recive.php?id=<?php echo $value['id'] ?>">รับสินค้า</a>
                                     <?php } ?>
                                 </td>
                             </tr>
